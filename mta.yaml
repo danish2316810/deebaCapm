@@ -31,7 +31,8 @@ modules:
       buildpack: nodejs_buildpack
     requires:
       - name: deebaCapm-db
-  - name: deebaCapm-srv
+
+  - name: deebaCapm-srv-db
     type: nodejs
     path: srv
     requires:
